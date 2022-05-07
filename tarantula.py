@@ -76,10 +76,11 @@ GITHUB: [italic magenta]https://github.com/blueTUZZ01[/]
 
 			elif choose == 4:
 				break
+			else:
+				console.print("WRONG", style='red')
 			
 
 		except RuntimeError:
 			console.print("CAN'T DO THIS, SORRY", style='blink red')
 		except:
-			console.print("WRONG", style='red')
 			pass
